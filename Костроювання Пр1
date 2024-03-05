@@ -1,0 +1,13 @@
+import math
+def callable_W(a, b, x):
+    numerator = math.sqrt   (x)**2 +(b)
+    denominator = math.sqrt(x**2 + a*x)
+    W = numerator / denominator
+    return W
+a = int(input("Введіть невід'ємне ціле число a: "))
+b = int(input("Введіть невід'ємне ціле число b: "))
+x = int(input("Введіть невід'ємне ціле число x: "))
+result_W = callable_W(a, b, x)
+print("Результат обчислення W: ", result_W)
+
+
